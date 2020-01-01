@@ -1,9 +1,11 @@
-<img src="https://github.com/naru380/node-secret-board/blob/images/posts_page.png">
-<br>
-
-
 # 匿名掲示板
 Node.jsの学習で作成した匿名掲示板
+<br>
+
+↓TOPページはこんな感じ
+<img src="https://github.com/naru380/node-secret-board/blob/images/posts_page.png">
+<br>
+<br>
 
 
 ## 環境構築手順
@@ -52,7 +54,9 @@ npm install
 node index.js
 ```
 
-## ログイン方法
+## その他
+
+### アカウント情報
 アカウントの管理は`users.htpasswd`で管理を行なっている
 <br>
 初期で用意してあるアカウントは以下（実際にはパスワードがハッシュ値化されている）
