@@ -4,12 +4,14 @@
   "description": "秘密の匿名掲示板",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "htpasswd": "htpasswd"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cookies": "^0.5.1",
+    "htpasswd": "^2.4.0",
     "http-auth": "^3.2.3",
     "moment-timezone": "^0.5.0",
     "pg": "^7.4.1",
